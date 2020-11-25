@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtMoveWidgetClass</class>
+ <widget class="QMainWindow" name="QtMoveWidgetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>994</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtMoveWidget</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="lb_cur">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>680</y>
+      <width>681</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>两种移动方式：1、点击图块中的上移、下移按钮；2、鼠标左键按下某一图块不放，拖动图块至适当位置，然后松开鼠标左键。</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="wdt_central" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>971</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(184, 184, 184);</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="qtmovewidget.qrc"/>
+ </resources>
+ <connections/>
+</ui>

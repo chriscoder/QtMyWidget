@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtMyWidget", "QtMyWidget.vcxproj", "{10E95A8D-8458-4340-AE6B-FAEFA390C2AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtMoveWidget", "..\QtMoveWidget\QtMoveWidget.vcxproj", "{80B317AA-64DF-4B40-AE24-4200E2A0BE46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{10E95A8D-8458-4340-AE6B-FAEFA390C2AC}.Debug|x64.Build.0 = Debug|x64
 		{10E95A8D-8458-4340-AE6B-FAEFA390C2AC}.Release|x64.ActiveCfg = Release|x64
 		{10E95A8D-8458-4340-AE6B-FAEFA390C2AC}.Release|x64.Build.0 = Release|x64
+		{80B317AA-64DF-4B40-AE24-4200E2A0BE46}.Debug|x64.ActiveCfg = Debug|x64
+		{80B317AA-64DF-4B40-AE24-4200E2A0BE46}.Debug|x64.Build.0 = Debug|x64
+		{80B317AA-64DF-4B40-AE24-4200E2A0BE46}.Release|x64.ActiveCfg = Release|x64
+		{80B317AA-64DF-4B40-AE24-4200E2A0BE46}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

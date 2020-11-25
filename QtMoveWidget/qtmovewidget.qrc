@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/QtMoveWidget">
+        <file>UI/images/down.png</file>
+        <file>UI/images/up.png</file>
+    </qresource>
+</RCC>
